@@ -1,0 +1,135 @@
+Environment Setup:
+------------------
+- node.js (download it from official website then install)
+- check version 
+  > node -v
+  > npm -v
+
+- downlaod visual studio code then install
+
+run below commands from CommandPrompt:
+--------------------------------------  
+-- > npm install -g babel
+   > npm install -g babel-cli
+   
+D:\> mkdir firstreactapp
+D:\> cd firstreactapp
+D:\>firstreactapp> npm init
+    this will create package.json file 
+	
+add dependencies and plugins to JSON file
+------------------------------------------
+firstreactapp> npm install webpack --save
+firstreactapp> npm install webpack-dev-server --save
+  --save adds dependency to json file
+firstreactapp> npm install react --save
+firstreactapp> npm install react-dom --save
+firstreactapp> npm install babel-core
+firstreactapp> npm install babel-loader
+firstreactapp> npm install babel-preset-react
+firstreactapp> npm install babel-preset-es2015
+
+firstreactapp> npm install -g  webpack-dev-server
+
+Edit package.json file then add 
+"start":"webpack-dev-server --hot" to script object i.e.,
+	"scripts": {
+    "start":"webpack-dev-server --hot"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
